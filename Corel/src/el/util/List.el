@@ -1,5 +1,11 @@
 package el.util;
 
-class List{
-	
+interface List{
+	add();
+}
+
+class ArrayList implements List{
+	add(){
+		
+	}
 }
